@@ -10,10 +10,7 @@
 
 package utils
 
-import
-//"fmt"
-
-"github.com/huichen/sego"
+import "github.com/huichen/sego"
 
 type Segmenter struct {
 	dictionary string

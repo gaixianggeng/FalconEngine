@@ -1,14 +1,13 @@
 package mlog
 
-
 import (
-"fmt"
-"io"
-"io/ioutil"
-"log"
-"os"
-"path"
-"sync/atomic"
+	"fmt"
+	"io"
+	"io/ioutil"
+	"log"
+	"os"
+	"path"
+	"sync/atomic"
 )
 
 // LogLevel type
@@ -320,4 +319,3 @@ func Blue(s string) string {
 func Magenta(s string) string {
 	return magenta(s)
 }
-

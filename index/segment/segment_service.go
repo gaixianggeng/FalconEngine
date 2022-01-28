@@ -2,12 +2,12 @@ package segment
 
 import (
 	"io"
-	"github.com/FalconEngine/tools"
-	"github.com/FalconEngine/index/invert"
+
+	"FalconEngine/index/invert"
+	"FalconEngine/tools"
 )
 
 type FalconSegmentService interface {
-
 	AddField(mapping *tools.FalconMapping) error
 	UpdateDocument(document map[string]interface{}) error
 	// 持久化
@@ -20,8 +20,5 @@ type FalconSegmentService interface {
 	DocumentCount() uint32
 	Name() string
 
-	SimpleSearch(field,keyword string) (invert.FalconDocList,bool,error)
-
-
-
+	SimpleSearch(field, keyword string) (invert.FalconDocList, bool, error)
 }

@@ -1,14 +1,12 @@
 package main_test
 
 import (
+	"FalconEngine/src/bolt"
 	"bytes"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"testing"
-
-	"github.com/boltdb/bolt"
-	"github.com/boltdb/bolt/cmd/bolt"
 )
 
 // Ensure the "info" command can print information about a database.

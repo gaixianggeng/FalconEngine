@@ -1,6 +1,7 @@
 package main
 
 import (
+	"FalconEngine/src/bolt"
 	"bytes"
 	"encoding/binary"
 	"errors"
@@ -18,8 +19,6 @@ import (
 	"unicode"
 	"unicode/utf8"
 	"unsafe"
-
-	"github.com/boltdb/bolt"
 )
 
 var (

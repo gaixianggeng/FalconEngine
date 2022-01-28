@@ -2,7 +2,7 @@ package util
 
 import (
 	"testing"
-	"github.com/FalconEngine/mlog"
+	"FalconEngine/mlog"
 )
 
 func Test_BasicData(t *testing.T) {

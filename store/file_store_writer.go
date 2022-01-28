@@ -2,7 +2,7 @@ package store
 
 import (
 	"os"
-	"github.com/FalconEngine/mlog"
+	"FalconEngine/mlog"
 	"encoding/binary"
 )
 
